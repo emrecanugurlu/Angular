@@ -1,0 +1,8 @@
+<div>
+  <input type="email" [field]="loginForm.email"  placeholder="E-mail"/>
+  <input type="password" [field]="loginForm.password" placeholder="Password"/>
+</div>
+
+
+<p>E-mail : {{loginForm.email().value()}}</p>
+<p>Password : {{loginForm.password().value()}}</p>
